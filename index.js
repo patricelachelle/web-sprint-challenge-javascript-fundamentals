@@ -17,7 +17,7 @@ myFunction();
 
 //🚀🚀🚀 ⬇️ 📝 Explanation ⬇️ 📝 🚀🚀🚀: 
 
-
+// The nested function can call the variable because the variable it is calling is inside of the parent function it's nested within. 
 
 
 
