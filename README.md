@@ -29,13 +29,30 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Briefly compare and contrast `.forEach` & `.map` (2-3 sentences max)
 
+One of the main differences between 'forEach' and 'map' is that 'map' returns an array as with 'forEach' the push()
+must be used to create a new array. 'forEach' must iterate through every item in an array without stopping and it does not need a return statement. 'map' as stated above returns a new array, it doesn't manipulate the original array, and it requires a return statement. 
+
 2. Explain the difference between a callback and a higher order function.
+
+A callback function is passed into higher order functions as arguments. Higher order functions receive callbacks. 
 
 3. Can you explain what a closure is and how you used it in the counter function? 
 
+A closure is a function and the variables that functions uses or can access. Basically I wrote a function that would return a second function. I invoked the first function to return the second function and store it in a new variable. I then invoked the new variable to return the second function. 
+
 4. Describe the four principles of the 'this' keyword.
 
+    1. Window Binding means that the value of 'this' will be the window or console Object.
+
+    2. Implicit Binding means that when a dot is used to call a function the object before the dot is the 'this'.
+
+    3. Explicit Binding is defining 'this' by using .call, or .apply to invoke the function and using bind to pass in arguments but does not immediately invoke the function but returns a brand new to be invoked later. 
+
+    4. The 'new' keyword binding uses the 'new' keyword to construct a new object for 'this' to use and when a function is invoked as a constructor function using the 'new' keyword 'this' points to the new object. 
+
 5. Why do we need super() in an extended class?
+
+The super() tells a parent's constructor to take in the child's attributes and takess away the need to use the Object.create() syntax.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
